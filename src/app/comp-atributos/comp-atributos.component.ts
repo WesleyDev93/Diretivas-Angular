@@ -10,10 +10,24 @@ export class CompAtributosComponent {
   estilo: string = "disable";
   corFundo: string = "blue";
   corTexto: string = "black";
+  // criando lista  e o item
+  item:string = "";
+  lista:string []= [];
+
 
   constructor () {
 
   }
+
+  // criando a função para lista
+
+  adicionarLista () {
+
+    // inserindo metodo de push para a lista com o paramento do item que esta acima vazio
+        this.lista.push (this.item);
+
+  }
+
 
 
   trocar(){
