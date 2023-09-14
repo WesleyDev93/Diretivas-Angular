@@ -8,7 +8,8 @@ import { Component } from '@angular/core';
 export class CompAtributosComponent {
 
   estilo: string = "disable";
-
+  corFundo: string = "blue";
+  corTexto: string = "black";
 
   constructor () {
 
