@@ -10,11 +10,14 @@ export class CardComponent implements OnInit {
   //criando nosso array, que pode vir de API
 
   produtos:string [] =[];
+  menuType: string = "";
+
 
   constructor () {
  //  Como não temos API vamos criar nossos itens
 
     this.produtos = ["Mouse", "Touch", "Teclado", "Pc"];
+
   }
 
 
